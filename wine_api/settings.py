@@ -85,7 +85,7 @@ DATABASES = {
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000/'
-    'http://lima-wines-frontend.herokuapp.com',
+    'https://wines-react-frontend.herokuapp.com/',
     )
 
 # Password validation
