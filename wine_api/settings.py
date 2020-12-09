@@ -79,14 +79,14 @@ WSGI_APPLICATION = 'wine_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lima_wines_api',
+        'NAME': 'wines_db',
     }
 }
 
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000/'
-    'https://wines-react-frontend.herokuapp.com/',
-    )
+# CORS_ORIGIN_WHITELIST = (
+#     'http://localhost:3000/'
+#     'https://wines-react-frontend.herokuapp.com/',
+#     )
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
